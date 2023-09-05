@@ -1,0 +1,26 @@
+.calculator {
+    background: url('../../../img/calculator-bg.svg') no-repeat;
+    background-size: contain;
+    background-position: 90% 50%;
+}
+
+.calculator__title {
+    margin-bottom: 20px;
+}
+
+.calculator-form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+}
+
+.calculator-form__item {
+    width: 100%;
+}
+
+.calculator-form__title {
+    padding: 18px;
+    text-align: center;
+    background: rgba(217, 217, 217, .19);
+}

@@ -1,0 +1,108 @@
+.success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.success__img {
+    max-width: 100%;
+    margin-top: 15px;
+    object-fit: contain;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: -20px;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.success__ecommerce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% + 24px);
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        padding: 36px;
+        border-radius: 12px;
+        background: #ffffff;
+    }
+}
+
+.success__ecommerce-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    background: #ffffff;
+    border-bottom: 1px solid #fd8634;
+
+    @media screen and (min-width: 768px) {
+        align-items: flex-start;
+        padding: 15px 20px 15px 0;
+        border-bottom: none;
+        border-right: 1px solid #fd8634;
+    }
+}
+
+.success__text {
+    padding-top: 12px;
+}
+
+.success__subtext {
+    width: 100%;
+    padding: 15px 20px;
+    border-bottom: 1px solid #fd8634;
+    background: #ffffff;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        padding: 15px 22px;
+        border-bottom: none;
+    }
+}
+
+.success__btn {
+    margin-top: 15px;
+    width: 80%;
+}
+
+.success__topics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+}
+
+.success__topic {   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 38px;
+
+    @media screen and (min-width: 768px) {
+        max-width: 40%;
+        margin: 0;
+    }
+}
+
+.success__topic:last-child {
+    margin: 0;
+}
+
+.success__topic-text {
+    margin-top: 8px;
+    text-align: center;
+}

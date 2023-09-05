@@ -1,0 +1,119 @@
+.clients__list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    overflow-x: auto;
+
+    @media screen and (min-width: 1028px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: inherit;
+        grid-gap: 18px 30px;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
+
+/* width */
+.clients__list::-webkit-scrollbar {
+    height: 4px;
+}
+
+/* Track */
+.clients__list::-webkit-scrollbar-track {
+background: #ffffff;
+border-radius: 12px;
+}
+
+/* Handle */
+.clients__list::-webkit-scrollbar-thumb {
+background: #fd8634;
+border-radius: 12px;
+}
+
+.clients-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 295px;
+    padding: 12px 14px;
+    border-radius: 12px;
+    border: 1px solid #898989;
+}
+
+.clients-item.--big {
+    @media screen and (min-width: 1028px) {
+        flex-direction: row;
+        align-items: center;
+        grid-column: span 3;
+        order: 0;
+        width: 100%;
+        padding: 38px 46px;
+
+
+        .clients-item__info {
+            width: 70%;
+        }
+
+        .clients-item__photo {
+            width: 130px;
+            height: 130px;
+            margin-right: 34px;
+        }
+
+        .clients-item__name {
+            font-size: 16px;
+        }
+
+        .clients-item__position,
+        .clients-item__date {
+            font-size: 12px;
+        }
+
+        .clients-item__star {
+            width: 17px;
+            height: 17px;
+        }
+    }
+}
+
+.clients-item__info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+.clients-item__photo {
+    margin-right: 12px;
+}
+
+.clients-item__info-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.clients-item__rate {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.clients-item__star {
+    width: 12px;
+    height: 12px;
+}
+
+.clients-item__star.--active {
+    fill: #fd8634;
+}
+
+.clients-item__position {
+    color: #898989;
+}
+
+.clients-item__date {
+    margin-top: 4px;
+    color: #898989;
+    text-align: right;
+}

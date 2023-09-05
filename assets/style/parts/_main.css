@@ -1,0 +1,106 @@
+/* MAIN BLOCK */
+
+.main {
+    background-color: #f4f4f4;
+    background-image: url('../../img/main-sm.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+
+    @media screen and (min-width: 1028px) {
+        background-image: url('../../img/main.svg');
+        background-size: initial;
+    }
+
+    @media screen and (min-width: 1440px) {
+        background-image: url('../../img/main-large.png');
+    }
+}
+
+.main__container {
+    padding: 90px 22px 20px;
+
+    @media screen and (min-width: 1028px) {
+        padding: 94px 170px 76px;
+    }
+}
+
+.main__title {
+    margin-bottom: 24px;
+    max-width: 70%;
+    font-weight: 600;
+    font-size: 48px;
+    font-family: 'Galano Grotesque Bold';
+
+    @media screen and (min-width: 1028px) {
+        max-width: 75%;
+        font-size: 96px;
+    }
+}
+
+.main__subtitle {
+    font-weight: 400;
+    font-size: 32px;
+
+    @media screen and (min-width: 1028px) {
+        font-size: 36px;
+    }
+}
+
+.main-awards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 16px;
+    padding: 16px 0;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+
+    @media screen and (min-width: 1028px) {
+        justify-content: flex-end;
+        max-width: 810px;
+        margin: 40px 0 0 -170px;
+        border: 1px solid #000000;
+        border-left: none;
+        border-top-right-radius: 7px;
+    }
+}
+
+.main-awards__item {
+    margin-right: 22px;
+
+    @media screen and (min-width: 1028px) {
+        margin-right: 40px;
+    }
+}
+
+.main-awards__img {
+    max-width: 60px;
+    max-height: 55px;
+
+    @media screen and (min-width: 1028px) {
+        max-width: none;
+        max-height: none;
+    }
+}
+
+.main-awards__block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.main-awards__block:last-child {
+    margin-bottom: 0;
+}
+
+.main-awards__text {
+    margin-left: 4px;
+    font-weight: 600;
+    font-size: 12px;
+
+    @media screen and (min-width: 1028px) {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,120 @@
+/* HEADER */
+
+.header {
+    position: relative;
+    background: #ffffff;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* NAV MENU */
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.menu__dropdown-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    @media screen and (min-width: 1028px) {
+        display: none;
+    }
+}
+
+.menu__dropdown-btn:hover,
+.menu__dropdown-btn.--active {
+    .menu__dropdown-icon {
+        width: 27px;
+        border-radius: 8px;
+    }
+}
+
+.menu__dropdown-icon {
+    width: 5px;
+    height: 5px;
+    margin-bottom: 3px;
+    border-radius: 50%;
+    background: #fd8634;
+    transition: all .3s;
+}
+
+.menu__dropdown-icon:last-child {
+    margin-bottom: 0;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    max-height: 0;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    z-index: 2;
+    background: white;
+    overflow: hidden;
+    transition: max-height .3s;
+
+    @media screen and (min-width: 1028px) {
+        flex-direction: row;
+        justify-content: flex-end;
+        height: 58px;
+        max-height: inherit;
+        position: inherit;
+    }
+}
+
+.menu__list.--active {
+    max-height: 280px;
+}
+
+.menu__item,
+.menu__link {
+    display: flex;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+
+    @media screen and (min-width: 1028px) {
+        padding: 10px 16px;
+    }
+}
+
+.menu__item:last-child {
+    margin: 0;
+}
+
+.menu__link {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    text-decoration: none;
+    
+    @media screen and (min-width: 1028px) {
+        padding: 10px 16px;
+    }
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+    text-decoration-color: #fd8634;
+}
+
+.menu__btn {
+    @media screen and (min-width: 1028px) {
+        border: 1px solid #000000;
+        border-radius: 22px;
+    }
+}

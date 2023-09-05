@@ -1,0 +1,120 @@
+/* CTO */
+
+.cto {
+    height: auto;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: 50%; 
+    background-position: left bottom;
+    background-image: url('../../img/cto-bg.svg');
+
+    @media screen and (min-width: 1028px) {
+        height: 507px;
+        background-size: contain;
+        background-position: 80% center; 
+    }
+}
+
+.cto__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+    @media screen and (min-width: 1028px) {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+}
+
+.cto__text-container {
+    align-self: center;
+
+    @media screen and (min-width: 1028px) {
+        max-width: 60%;
+    }
+}
+
+.cto__title {
+    margin: 40px 8px 20px 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.cto__title:before,
+.cto__title:after {
+    position: absolute;
+    color: #fd8634;
+    font-size: 48px;
+}
+
+.cto__title:before {
+    content: '“';
+    width: 83px;
+    height: 91px;
+    top: -42px;
+    left: -56px;
+    z-index: -1;
+    line-height: 91px;
+    text-align: center;
+    background: url('../../img/cto-open-quotes.svg') top center / contain no-repeat;
+}
+
+.cto__title:after {
+    content: '“';
+    right: 0;
+    bottom: -42px;
+}
+
+.cto__subtitle {
+    display: flex;
+    align-self: flex-start;
+    padding-left: 40px;
+}
+
+.cto__image-container {
+    position: relative;
+    z-index: 1;
+}
+
+.cto__image {
+    position: relative;
+    bottom: -3px;
+    z-index: 1;
+}
+
+.cto__image-bg {
+    content: '';
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    bottom: 30px;
+    left: 15%;
+    z-index: 0;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: url('../../img/cto-person-bg.svg');
+
+    @media screen and (min-width: 360px) {
+        left: 24%;
+    }
+
+    @media screen and (min-width: 440px) {
+        left: 35%;
+    }
+
+    @media screen and (min-width: 1028px) {
+        top: 70px;
+        bottom: inherit;
+        left: 45%;
+    }
+
+    @media screen and (min-width: 1500px) {
+        width: 360px;
+        height: 360px;
+        top: inherit;
+        bottom: 38px;
+        left: 60%;
+    }
+}

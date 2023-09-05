@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('../fonts/Galano/GalanoGrotesqueAltRegular.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Bold';
+    src: url('../fonts/Galano/GalanoGrotesqueAltSemiBold.otf');
+    font-weight: 600;
+}
+

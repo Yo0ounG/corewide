@@ -1,0 +1,93 @@
+.cto-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -150px;
+    padding: 200px 0 30px;
+    background: url('../../img/cto-form.svg') no-repeat left top / contain;
+
+    @media screen and (min-width: 1028px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.cto-form__person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: 1028px) {
+        flex-direction: row;
+        justify-content: space-between;
+        flex: 1 0 auto;
+    }
+}
+
+.cto-form__text {
+    margin-top: 14px;
+
+    @media screen and (min-width: 1028px) {
+        margin: 0 0 0 14px;
+    }
+}
+
+.cto-form__quote {
+    padding-top: 28px;
+    text-align: center;
+
+    @media screen and (min-width: 1028px) {
+        padding: 0 0 0 40px;
+        text-align: start;
+    }
+}
+
+.form-section {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 100%;
+}
+
+.form__row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 13px;
+
+    @media screen and (min-width: 1028px) {
+        flex-direction: row;
+    }
+}
+
+.form__input {
+    flex: 1 0 auto;
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 1px solid #c3c3c3;
+    border-radius: 12px;
+    color: #000000;
+
+    @media screen and (min-width: 1028px) {
+        max-width: calc(50% - 7px);
+    }
+}
+
+.form__input::placeholder {
+     color: #000000;
+}
+
+.form__textarea {
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+}
