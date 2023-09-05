@@ -21,7 +21,7 @@
 
 /* Track */
 .clients__list::-webkit-scrollbar-track {
-background: #ffffff;
+background: var(--white);
 border-radius: 12px;
 }
 

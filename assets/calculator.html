@@ -48,7 +48,68 @@
             <div class="calculator-form">
                 <div class="calculator-form__item">
                     <h3 class="h3-title calculator-form__title">Response time</h3>
-                    <div class="calculator-form__range"></div>
+                    <div class="calculator-range">
+                        <div class="calculator-range__item">
+                            <label class="text-regular calculator-range__time" for="lite">60 min</label>
+                            <input class="calculator-range__input" type="radio" id="lite" name="response" value="0" checked />
+                        </div>
+                        
+                        <div class="calculator-range__item">
+                            <label class="text-regular calculator-range__time" for="startup">30 min</label>
+                            <input class="calculator-range__input" type="radio" id="startup" name="response" value="100" />
+                            <label class="text-regular calculator-range__price" for="startup">+100$</label>
+                        </div>
+                        
+                        <div class="calculator-range__item">
+                            <label class="text-regular calculator-range__time" for="pro">20 min</label>
+                            <input class="calculator-range__input" type="radio" id="pro" name="response" value="200" />
+                            <label class="text-regular calculator-range__price" for="pro">+200$</label>
+                        </div>
+
+                        <div class="calculator-range__item">
+                            <label class="text-regular calculator-range__time" for="ultimative">10 min</label>
+                            <input class="calculator-range__input" type="radio" id="ultimative" name="response" value="300" />
+                            <label class="text-regular calculator-range__price" for="ultimative">+300$</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calculator-form__item">
+                    <h3 class="h3-title calculator-form__title">Audit</h3>
+                    <div class="calculator-switch">
+                        <label class="calculator-switch__switch">
+                            <input class="calculator-switch__input" type="checkbox" id="audit" name="response" value="350" />
+                            <span class="calculator-switch__slider"></span>
+                        </label>
+                        <span class="text-regular calculator-switch__price">+350$</span>
+                    </div>
+                </div>
+
+                <div class="calculator-form__item">
+                    <h3 class="h3-title calculator-form__title">Proactive Observability</h3>
+                    <div class="calculator-switch">
+                        <label class="calculator-switch__switch">
+                            <input class="calculator-switch__input" type="checkbox" id="observability" name="response" value="200" />
+                            <span class="calculator-switch__slider"></span>
+                        </label>
+                        <span class="text-regular calculator-switch__price">+200$</span>
+                    </div>
+                </div>
+
+                <div class="calculator-form__item">
+                    <h3 class="h3-title calculator-form__title">Managed backups</h3>
+                    <div class="calculator-switch">
+                        <label class="calculator-switch__switch">
+                            <input class="calculator-switch__input" type="checkbox" id="backups" name="response" value="300" />
+                            <span class="calculator-switch__slider"></span>
+                        </label>
+                        <span class="text-regular calculator-switch__price">+300$</span>
+                    </div>
+                </div>
+
+                <div class="calculator-form__total">
+                    <span class="text-regular">TOTAL</span>
+                    <span class="h3-title" id="calculator-total">650$</span>
                 </div>
             </div>
         </div>

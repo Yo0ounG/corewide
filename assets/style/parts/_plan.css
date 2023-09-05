@@ -47,7 +47,7 @@
 
 .plan-tabs__tab.--active {
     background: #fd8634;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .plan-tabs__list {
@@ -65,7 +65,7 @@
 
 /* Track */
 .plan-tabs__list::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: var(--white);
     border-radius: 12px;
 }
 
@@ -80,7 +80,7 @@
     flex-direction: column;
     width: 293px;
     padding: 20px;
-    background: #ffffff;
+    background: var(--white);
     border-radius: 12px;
     opacity: .5;
     transition: opacity .3s, box-shadow .3s;
@@ -216,7 +216,7 @@
     
         .plan-tabs__btn {
             background: #fd8634;
-            color: #ffffff;
+            color: var(--white);
         }
     }
 }

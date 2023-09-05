@@ -2,7 +2,7 @@
 
 .header {
     position: relative;
-    background: #ffffff;
+    background: var(--white);
 }
 
 .header__container {

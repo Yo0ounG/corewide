@@ -31,7 +31,7 @@
 
 /* Track */
 .requirements__list::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: var(--white);
     border-radius: 12px;
 }
 
@@ -60,7 +60,7 @@
 
 .requirements-item.--active {
     opacity: 1;
-    color: #ffffff;
+    color: var(--white);
 
     .requirements-item__body {
         padding: 30px 20px 20px;
@@ -69,7 +69,7 @@
     }
 
     .requirements-item__title {
-        color: #ffffff;
+        color: var(--white);
     }
 }
 
@@ -99,7 +99,7 @@
 
 .requirements-item:hover {
     opacity: 1;
-    color: #ffffff;
+    color: var(--white);
 
     .requirements-item__body {
         padding: 30px 20px 20px;
@@ -108,7 +108,7 @@
     }
 
     .requirements-item__title {
-        color: #ffffff;
+        color: var(--white);
     }
 }
 
@@ -142,7 +142,7 @@
     flex: 1;
     padding: 30px 20px 20px;
     border-radius: 42px;
-    background: #ffffff
+    background: var(--white)
 }
 
 .requirements-item__title {
