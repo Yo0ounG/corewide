@@ -37,7 +37,7 @@
 
 /* Handle */
 .requirements__list::-webkit-scrollbar-thumb {
-    background: #fd8634;
+    background: var(--accent);
     border-radius: 12px;
 }
 
@@ -65,7 +65,7 @@
     .requirements-item__body {
         padding: 30px 20px 20px;
         border-radius: 42px;
-        background: #fd8634;
+        background: var(--accent);
     }
 
     .requirements-item__title {
@@ -104,7 +104,7 @@
     .requirements-item__body {
         padding: 30px 20px 20px;
         border-radius: 42px;
-        background: #fd8634;
+        background: var(--accent);
     }
 
     .requirements-item__title {
@@ -147,5 +147,5 @@
 
 .requirements-item__title {
     margin-bottom: 16px;
-    color:#fd8634;
+    color:var(--accent);
 }

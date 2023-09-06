@@ -29,7 +29,7 @@
     padding: 22px;
     width: 100%;
     box-sizing: border-box;
-    border-top: 1px solid #fd8634;
+    border-top: 1px solid var(--accent);
     text-align: center;
 
     @media screen and (min-width: 1028px) {
@@ -37,6 +37,6 @@
         width: auto;
         height: 70%;
         border-top: none;
-        border-left: 1px solid #fd8634;
+        border-left: 1px solid var(--accent);
     }
 }

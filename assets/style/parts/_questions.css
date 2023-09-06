@@ -35,7 +35,7 @@
 }
 
 .questions-item__container.--active {
-    border: 1px solid #FD8634;
+    border: 1px solid var(--accent);
 
     .questions-item__text {
         max-height: 300px;
@@ -52,10 +52,10 @@
 }
 
 .questions-item__header:hover {
-    color: #FD8634;
+    color: var(--accent);
 
     .text-regular {
-        color: #FD8634;
+        color: var(--accent);
     }
 }
 

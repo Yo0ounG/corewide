@@ -72,7 +72,7 @@
     position: absolute;
     bottom: -4px;
     left: 0;
-    background-color: #fd8634;
+    background-color: var(--accent);
 }
 
 .key-item__body {

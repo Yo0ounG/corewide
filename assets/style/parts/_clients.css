@@ -27,7 +27,7 @@ border-radius: 12px;
 
 /* Handle */
 .clients__list::-webkit-scrollbar-thumb {
-background: #fd8634;
+background: var(--accent);
 border-radius: 12px;
 }
 
@@ -38,7 +38,7 @@ border-radius: 12px;
     min-width: 295px;
     padding: 12px 14px;
     border-radius: 12px;
-    border: 1px solid #898989;
+    border: 1px solid var(--grey);
 }
 
 .clients-item.--big {
@@ -105,15 +105,15 @@ border-radius: 12px;
 }
 
 .clients-item__star.--active {
-    fill: #fd8634;
+    fill: var(--accent);
 }
 
 .clients-item__position {
-    color: #898989;
+    color: var(--grey);
 }
 
 .clients-item__date {
     margin-top: 4px;
-    color: #898989;
+    color: var(--grey);
     text-align: right;
 }

@@ -1,5 +1,5 @@
 .footer {
-    background-color: #898989;
+    background-color: var(--grey);
     padding: 48px 34px;
 }
 
@@ -38,6 +38,6 @@
 
 .footer__link {
     width: 100%;
-    color: #000000;
+    color: var(--black);
     text-decoration: none;
 }

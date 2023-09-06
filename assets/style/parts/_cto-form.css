@@ -12,6 +12,12 @@
     }
 }
 
+.cto-form.--calculator {
+    .cto-form__quote {
+        padding: 0 40px 0 0;
+    }
+}
+
 .cto-form__person {
     display: flex;
     flex-direction: column;
@@ -75,7 +81,7 @@
     background: transparent;
     border: 1px solid #c3c3c3;
     border-radius: 12px;
-    color: #000000;
+    color: var(--black);
 
     @media screen and (min-width: 1028px) {
         max-width: calc(50% - 7px);
@@ -83,7 +89,7 @@
 }
 
 .form__input::placeholder {
-     color: #000000;
+     color: var(--black);
 }
 
 .form__textarea {

@@ -44,7 +44,7 @@
     height: 5px;
     margin-bottom: 3px;
     border-radius: 50%;
-    background: #fd8634;
+    background: var(--accent);
     transition: all .3s;
 }
 
@@ -83,7 +83,7 @@
 .menu__item,
 .menu__link {
     display: flex;
-    color: #000000;
+    color: var(--black);
     font-weight: 500;
     font-size: 16px;
 
@@ -109,12 +109,12 @@
 
 .menu__link:hover {
     text-decoration: underline;
-    text-decoration-color: #fd8634;
+    text-decoration-color: var(--accent);
 }
 
 .menu__btn {
     @media screen and (min-width: 1028px) {
-        border: 1px solid #000000;
+        border: 1px solid var(--black);
         border-radius: 22px;
     }
 }

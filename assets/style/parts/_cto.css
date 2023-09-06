@@ -44,7 +44,7 @@
 .cto__title:before,
 .cto__title:after {
     position: absolute;
-    color: #fd8634;
+    color: var(--accent);
     font-size: 48px;
 }
 

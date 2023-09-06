@@ -30,7 +30,7 @@
 
 .insights-item {
     padding: 18px;
-    border: 1px solid #898989;
+    border: 1px solid var(--grey);
     border-radius: 12px;
 
     @media screen and (min-width: 1028px) {
@@ -87,7 +87,7 @@
         position: relative;
         margin: 16px 35px 0 0;
         max-height: 50px;
-        border-bottom: 1px solid #fd8634;
+        border-bottom: 1px solid var(--accent);
     }
 
     .insights-item__block:after {
