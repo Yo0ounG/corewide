@@ -54,7 +54,6 @@
     @media screen and (min-width: 1280px) {
         max-width: 408px;
         opacity: .45;
-        transform: rotate(7deg);
     }
 }
 
@@ -70,6 +69,12 @@
 
     .requirements-item__title {
         color: var(--white);
+    }
+}
+
+.requirements-item:first-child {
+    @media screen and (min-width: 1280px) {
+        margin-top: 180px;
     }
 }
 
@@ -93,7 +98,7 @@
     margin-right: 0;
 
     @media screen and (min-width: 1280px) {
-        margin: 180px 0 0 0;
+        margin: 0;
     }
 }
 

@@ -16,7 +16,7 @@ Template Name: NewLandingPage
 <body>
 <header class="header">
     <div class="layout header__container">
-        <img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Corewide logo">
+        <img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="Corewide logo">
         <nav class="menu">
             <div class="menu__dropdown-btn">
                 <span class="menu__dropdown-icon"></span>
@@ -214,7 +214,7 @@ Template Name: NewLandingPage
             We ensure you get service that meets your requirements
         </h2>
         <div class="requirements__list">
-            <div class="requirements-item">
+            <div class="requirements-item --active">
                 <span class="requirements-item__img --1"></span>
                 <div class="requirements-item__body">
                     <h3 class="h3-title requirements-item__title">
@@ -228,7 +228,7 @@ Template Name: NewLandingPage
                     </p>
                 </div>
             </div>
-            <div class="requirements-item --active">
+            <div class="requirements-item">
                 <span class="requirements-item__img --2"></span>
                 <div class="requirements-item__body">
                     <h3 class="h3-title requirements-item__title">
@@ -502,24 +502,24 @@ Template Name: NewLandingPage
 
         <div class="with-us__list">
             <div class="with-us-item">
-                <h3 class="h3-title with-us-item__title">8 years
+                <h3 class="h3-title text-orange with-us-item__title">8 years
                 </h3>
                 <p class="text-regular with-us-item__text">making businesses significant with DevOps mindset</p>
             </div>
             <div class="with-us-item">
-                <h3 class="h3-title with-us-item__title">38
+                <h3 class="h3-title text-orange with-us-item__title">38
                     time zones
                 </h3>
                 <p class="text-regular with-us-item__text">conquered by our professionalism</p>
             </div>
             <div class="with-us-item">
-                <h3 class="h3-title with-us-item__title">73%
+                <h3 class="h3-title text-orange with-us-item__title">73%
                     of clients
                 </h3>
                 <p class="text-regular with-us-item__text">opt for our SRE services after DevOps project is delivered</p>
             </div>
             <div class="with-us-item">
-                <h3 class="h3-title with-us-item__title">100% success
+                <h3 class="h3-title text-orange with-us-item__title">100% success
                 </h3>
                 <p class="text-regular with-us-item__text">according to Upwork and Clutch job reviews</p>
             </div>
@@ -629,16 +629,16 @@ Template Name: NewLandingPage
                             </svg>
                         </div>
                         <p class="text-regular text-bold clients-item__name">Sheh Adams</p>
-                        <p class="text-tiny clients-item__position">Director of Operations Brighteon</p>
+                        <p class="text-small clients-item__position">Director of Operations Brighteon</p>
                     </div>
                 </div>
                 <div class="clients-item__body">
-                    <p class="text-small clients-item__body-text">
+                    <p class="text-regular clients-item__body-text">
                         Corewide is absolutely brilliant!
                         We have been working with their business for many years and have benefited tremendously from their brilliant services and network designs.
                         Denis is a holistic thinker, and his solution is superb!  An absolute goldmine. We highly recommend Corewide.
                     </p>
-                    <div class="text-tiny clients-item__date">September 8, 2023</div>
+                    <div class="text-small clients-item__date">September 8, 2023</div>
                 </div>
             </div>
             <div class="clients-item">
@@ -663,16 +663,16 @@ Template Name: NewLandingPage
                             </svg>
                         </div>
                         <p class="text-regular text-bold clients-item__name">Sheh Adams</p>
-                        <p class="text-tiny clients-item__position">Director of Operations Brighteon</p>
+                        <p class="text-small clients-item__position">Director of Operations Brighteon</p>
                     </div>
                 </div>
                 <div class="clients-item__body">
-                    <p class="text-small clients-item__body-text">
+                    <p class="text-regular clients-item__body-text">
                         Corewide is absolutely brilliant!
                         We have been working with their business for many years and have benefited tremendously from their brilliant services and network designs.
                         Denis is a holistic thinker, and his solution is superb!  An absolute goldmine. We highly recommend Corewide.
                     </p>
-                    <div class="text-tiny clients-item__date">September 8, 2023</div>
+                    <div class="text-small clients-item__date">September 8, 2023</div>
                 </div>
             </div>
             <div class="clients-item">
@@ -697,7 +697,43 @@ Template Name: NewLandingPage
                             </svg>
                         </div>
                         <p class="text-regular text-bold clients-item__name">Sheh Adams</p>
-                        <p class="text-tiny clients-item__position">Director of Operations Brighteon</p>
+                        <p class="text-small clients-item__position">Director of Operations Brighteon</p>
+                    </div>
+                </div>
+                <div class="clients-item__body">
+                    <p class="text-regular clients-item__body-text">
+                        Corewide is absolutely brilliant!
+                        We have been working with their business for many years and
+                        have benefited tremendously from their brilliant services and network designs.
+                        Denis is a holistic thinker, and his solution is superb!
+                        An absolute goldmine. We highly recommend Corewide.
+                    </p>
+                    <div class="text-small clients-item__date">September 8, 2023</div>
+                </div>
+            </div>
+            <div class="clients-item">
+                <div class="clients-item__info">
+                    <img class="clients-item__photo" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients-img.svg" alt="client photo">
+                    <div class="clients-item__info-text">
+                        <div class="clients-item__rate">
+                            <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
+                                <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
+                            </svg>
+                            <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
+                                <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
+                            </svg>
+                            <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
+                                <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
+                            </svg>
+                            <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
+                                <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
+                            </svg>
+                            <svg class="clients-item__star" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
+                                <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
+                            </svg>
+                        </div>
+                        <p class="text-regular text-bold clients-item__name">Sheh Adams</p>
+                        <p class="text-small clients-item__position">Director of Operations Brighteon</p>
                     </div>
                 </div>
                 <div class="clients-item__body">
@@ -708,43 +744,7 @@ Template Name: NewLandingPage
                         Denis is a holistic thinker, and his solution is superb!
                         An absolute goldmine. We highly recommend Corewide.
                     </p>
-                    <div class="text-tiny clients-item__date">September 8, 2023</div>
-                </div>
-            </div>
-            <div class="clients-item">
-                <div class="clients-item__info">
-                    <img class="clients-item__photo" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients-img.svg" alt="client photo">
-                    <div class="clients-item__info-text">
-                        <div class="clients-item__rate">
-                            <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
-                                <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
-                            </svg>
-                            <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
-                                <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
-                            </svg>
-                            <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
-                                <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
-                            </svg>
-                            <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
-                                <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
-                            </svg>
-                            <svg class="clients-item__star" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
-                                <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
-                            </svg>
-                        </div>
-                        <p class="text-regular text-bold clients-item__name">Sheh Adams</p>
-                        <p class="text-tiny clients-item__position">Director of Operations Brighteon</p>
-                    </div>
-                </div>
-                <div class="clients-item__body">
-                    <p class="text-small clients-item__body-text">
-                        Corewide is absolutely brilliant!
-                        We have been working with their business for many years and
-                        have benefited tremendously from their brilliant services and network designs.
-                        Denis is a holistic thinker, and his solution is superb!
-                        An absolute goldmine. We highly recommend Corewide.
-                    </p>
-                    <div class="text-tiny clients-item__date">September 8, 2023</div>
+                    <div class="text-regular clients-item__date">September 8, 2023</div>
                 </div>
             </div>
         </div>
@@ -760,7 +760,7 @@ Template Name: NewLandingPage
                     Getting ready for Magento 2: On top performance and impeccable security
                 </p>
             </div>
-            <p class="text-small success__subtext">
+            <p class="text-regular success__subtext">
                 The client owns one of the popular B2C shops in their country.
                 As their business grew, the customer’s developer worked on a new version of their
                 e-commerce website powered by Magento 2 and needed to ensure their infrastructure

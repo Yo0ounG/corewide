@@ -9,7 +9,6 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: inherit;
         grid-gap: 18px 30px;
-        max-width: 960px;
         margin: 0 auto;
     }
 }
@@ -52,7 +51,7 @@ border-radius: 12px;
 
 
         .clients-item__info {
-            width: 70%;
+            width: 100%;
         }
 
         .clients-item__photo {
