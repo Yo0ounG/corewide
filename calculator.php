@@ -13,9 +13,9 @@ Template Name: NewCalculatorPage
 </head>
 
 <body>
-    <header class="header">
-        <div class="layout header__container">
-            <img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Corewide logo">
+    <header class="header" id="header">
+        <div class="layout layout--calculator header__container">
+            <img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="Corewide logo">
             <nav class="menu">
                 <div class="menu__dropdown-btn">
                     <span class="menu__dropdown-icon"></span>
@@ -37,7 +37,13 @@ Template Name: NewCalculatorPage
         </div>
     </header>
 
-    <section class="layout">
+    <div class="scroll">
+        <a href="#header" class="scroll__btn">
+            <img class="scroll__icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/scroll.svg" alt="Scroll mouse">
+        </a>
+    </div>
+
+    <section class="layout layout--calculator">
         <div class="calculator">
             <div class="block calculator__container">
                 <h2 class="h2-title calculator__title">Create a plan that fits your needs</h2>
@@ -115,6 +121,7 @@ Template Name: NewCalculatorPage
         <section class="cto-form --calculator">
             <h3 class="h3-title cto-form__quote">
                 Having trouble calculating your perfect plan?
+                <br />
                 We`re here for you
             </h3>
             <figure class="cto-form__person">

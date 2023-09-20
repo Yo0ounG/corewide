@@ -7,10 +7,15 @@
 }
 
 .insights__title {
+    max-width: 650px;
     padding-bottom: 30px;
 
     @media screen and (min-width: 1028px) {
         padding-bottom: 42px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        max-width: none;
     }
 }
 

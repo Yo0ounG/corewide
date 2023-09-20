@@ -14,7 +14,7 @@ Template Name: NewLandingPage
 </head>
 
 <body>
-<header class="header">
+<header class="header" id="header">
     <div class="layout header__container">
         <img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="Corewide logo">
         <nav class="menu">
@@ -46,6 +46,12 @@ Template Name: NewLandingPage
         </nav>
     </div>
 </header>
+
+<div class="scroll">
+    <a href="#header" class="scroll__btn">
+        <img class="scroll__icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/scroll.svg" alt="Scroll mouse">
+    </a>
+</div>
 
 <section class="main">
     <div class="main__container">
@@ -81,17 +87,17 @@ Template Name: NewLandingPage
         <h3 class="h3-title downtime__title">Downtime is expensive</h3>
         <div class="downtime__item">
             <p class="text-regular downtime__text">
-                A 2022 survey shows that <span class="text-orange">95%</span> of businesses faced unexpected downtime
+                A 2022 survey shows that <span class="text-orange text-bold">95%</span> of businesses faced unexpected downtime
             </p>
         </div>
         <div class="downtime__item">
             <p class="text-regular downtime__text">
-                The cost per minute for small businesses lands around <span class="text-orange">$427</span>
+                The cost per minute for small businesses lands around <span class="text-orange text-bold">$427</span>
             </p>
         </div>
         <div class="downtime__item">
             <p class="text-regular downtime__text">
-                Every minute of downtime larger businesses lose almost <span class="text-orange">$9,000</span>
+                Every minute of downtime larger businesses lose almost <span class="text-orange text-bold">$9,000</span>
             </p>
         </div>
     </div>
@@ -502,26 +508,36 @@ Template Name: NewLandingPage
 
         <div class="with-us__list">
             <div class="with-us-item">
-                <h3 class="h3-title text-orange with-us-item__title">8 years
+                <h3 class="h3-title with-us-item__title">
+                    8
+                    <br />
+                    years
                 </h3>
                 <p class="text-regular with-us-item__text">making businesses significant with DevOps mindset</p>
             </div>
             <div class="with-us-item">
-                <h3 class="h3-title text-orange with-us-item__title">38
+                <h3 class="h3-title with-us-item__title">
+                    38
+                    <br />
                     time zones
                 </h3>
                 <p class="text-regular with-us-item__text">conquered by our professionalism</p>
             </div>
+            <div class="with-us-item --active">
+                <h3 class="h3-title with-us-item__title">
+                    100%
+                    <br />
+                    success
+                </h3>
+                <p class="text-regular with-us-item__text">according to Upwork and Clutch job reviews</p>
+            </div>
             <div class="with-us-item">
-                <h3 class="h3-title text-orange with-us-item__title">73%
+                <h3 class="h3-title with-us-item__title">
+                    73%
+                    <br />
                     of clients
                 </h3>
                 <p class="text-regular with-us-item__text">opt for our SRE services after DevOps project is delivered</p>
-            </div>
-            <div class="with-us-item">
-                <h3 class="h3-title text-orange with-us-item__title">100% success
-                </h3>
-                <p class="text-regular with-us-item__text">according to Upwork and Clutch job reviews</p>
             </div>
         </div>
     </div>

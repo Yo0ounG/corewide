@@ -5,17 +5,24 @@
 @import './parts/index.css';
 
 body {
+    position: relative;
     background: #f4f4f4;
     font-family: 'Roboto', sans-serif;
 }
 
 .layout {
-    max-width: 1136px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 12px;
 
     @media screen and (min-width: 1600px) {
-        max-width: 1512px;
+        max-width: 1358px;
+    }
+}
+
+.layout--calculator {
+    @media screen and (min-width: 1600px) {
+        max-width: 1360px;
     }
 }
 

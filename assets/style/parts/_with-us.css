@@ -36,7 +36,14 @@
     @media screen and (min-width: 1400px) {
         justify-content: center;
         max-width: 300px;
+        padding: 22px 33px;
     }
+}
+
+.with-us-item.--active {
+    background: var(--accent);
+    border: 1px solid transparent;
+    color: var(--white);
 }
 
 .with-us-item__text {

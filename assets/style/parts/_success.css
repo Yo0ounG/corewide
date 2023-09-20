@@ -10,6 +10,7 @@
     object-fit: contain;
 
     @media screen and (min-width: 768px) {
+        margin-top: 45px;
         margin-bottom: -20px;
         position: relative;
         z-index: 1;
@@ -43,6 +44,7 @@
 
     @media screen and (min-width: 768px) {
         align-items: flex-start;
+        max-width: 287px;
         padding: 15px 20px 15px 0;
         border-bottom: none;
         border-right: 1px solid var(--accent);
@@ -51,6 +53,12 @@
 
 .success__text {
     padding-top: 12px;
+    max-width: 287px;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        text-align: left;
+    }
 }
 
 .success__subtext {
@@ -63,6 +71,7 @@
     @media screen and (min-width: 768px) {
         padding: 15px 22px;
         border-bottom: none;
+        text-align: left;
     }
 }
 
@@ -103,6 +112,7 @@
 }
 
 .success__topic-text {
+    max-width: 300px;
     margin-top: 8px;
     text-align: center;
 }

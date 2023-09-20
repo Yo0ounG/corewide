@@ -46,6 +46,15 @@
                 }
             }
         });
+
+        const slides = document.querySelectorAll('.swiper-slide');
+
+        slides.forEach(slide => {
+            slide.addEventListener('mouseenter', () => {
+                slides.forEach(item => item.classList.remove('swiper-slide-active'));
+                slide.classList.add('swiper-slide-active');
+            })
+        })
     }
 }
 

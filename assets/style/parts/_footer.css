@@ -1,6 +1,8 @@
 .footer {
-    background-color: var(--grey);
     padding: 48px 34px;
+    position: relative;
+    z-index: 3;
+    background-color: var(--grey);
 }
 
 .footer__head {

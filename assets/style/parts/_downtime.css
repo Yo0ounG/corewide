@@ -17,10 +17,14 @@
 }
 
 .downtime__title {
+    width: 234px;
     margin-bottom: 24px;
+    text-align: center;
 
     @media screen and (min-width: 1028px) {
+        flex: 1 0 234px;
         margin: 0 24px 0 0;
+        text-align: left;
     }
 }
 
@@ -30,7 +34,6 @@
     width: 100%;
     box-sizing: border-box;
     border-top: 1px solid var(--accent);
-    text-align: center;
 
     @media screen and (min-width: 1028px) {
         align-items: center;
