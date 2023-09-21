@@ -1,3 +1,29 @@
+body {
+    position: relative;
+    background: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.layout {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 12px;
+
+    @media screen and (min-width: 1600px) {
+        max-width: 1358px;
+    }
+}
+
+.layout--calculator {
+    @media screen and (min-width: 1600px) {
+        max-width: 1360px;
+    }
+}
+
+.block {
+    padding: 70px 0;
+}
+
 /* TEXTS */
 .h2-title {
     font-size: 32px;
@@ -27,16 +53,19 @@
 }
 
 .text-small {
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 12px;
 }
 
 .text-small-bold {
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 12px;
 }
 
 .text-tiny {
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 10px;
 }
@@ -67,7 +96,7 @@
     border: 1px solid var(--accent);
     background: var(--accent);
     color: var(--white);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
     text-align: center;
     text-transform: uppercase;
@@ -89,7 +118,7 @@
     border: 1px solid var(--accent);
     background: transparent;
     color: var(--accent);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
     text-align: center;
     text-transform: uppercase;
