@@ -13,29 +13,29 @@ Template Name: NewCalculatorPage
 </head>
 
 <body>
-    <header class="header" id="header">
-        <div class="layout layout--calculator header__container">
-            <img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="Corewide logo">
-            <nav class="menu">
-                <div class="menu__dropdown-btn">
-                    <span class="menu__dropdown-icon"></span>
-                    <span class="menu__dropdown-icon"></span>
-                    <span class="menu__dropdown-icon"></span>
-                </div>
-                <ul class="menu__list">
-                    <li class="menu__item">
-                        <a class="menu__link" href="#form">Have a trouble?</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="https://www.corewide.com/about-us/">Our story</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link menu__btn" href="https://calendly.com/team-corewide/introduction-call?back=1&month=2023-09" target="_blank">Book a call</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<!--    <header class="header" id="header">-->
+<!--        <div class="layout layout--calculator header__container">-->
+<!--            <img class="header__logo" src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/logo.svg" alt="Corewide logo">-->
+<!--            <nav class="menu">-->
+<!--                <div class="menu__dropdown-btn">-->
+<!--                    <span class="menu__dropdown-icon"></span>-->
+<!--                    <span class="menu__dropdown-icon"></span>-->
+<!--                    <span class="menu__dropdown-icon"></span>-->
+<!--                </div>-->
+<!--                <ul class="menu__list">-->
+<!--                    <li class="menu__item">-->
+<!--                        <a class="menu__link" href="#form">Have a trouble?</a>-->
+<!--                    </li>-->
+<!--                    <li class="menu__item">-->
+<!--                        <a class="menu__link" href="https://www.corewide.com/about-us/">Our story</a>-->
+<!--                    </li>-->
+<!--                    <li class="menu__item">-->
+<!--                        <a class="menu__link menu__btn" href="https://calendly.com/team-corewide/introduction-call?back=1&month=2023-09" target="_blank">Book a call</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+<!--        </div>-->
+<!--    </header>-->
 
     <div class="scroll">
         <a href="#header" class="scroll__btn">
@@ -122,7 +122,7 @@ Template Name: NewCalculatorPage
             <h3 class="h3-title cto-form__quote">
                 Having trouble calculating your perfect plan?
                 <br />
-                We`re here for you
+                We're here for you
             </h3>
             <figure class="cto-form__person">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/csm-img.png" alt="CSM photo">

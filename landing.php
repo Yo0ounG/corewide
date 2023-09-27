@@ -15,38 +15,38 @@ get_header();
 </head>
 
 <body>
-<header class="header" id="header">
-    <div class="layout header__container">
-        <img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="Corewide logo">
-        <nav class="menu">
-            <div class="menu__dropdown-btn">
-                <span class="menu__dropdown-icon"></span>
-                <span class="menu__dropdown-icon"></span>
-                <span class="menu__dropdown-icon"></span>
-            </div>
-            <ul class="menu__list">
-                <li class="menu__item">
-                    <a class="menu__link" href="#sre-features">SRE features</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link"href="#plans">Pricing plans</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="#case">Case studies</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="#insights">Insights</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="https://www.corewide.com/about-us/">Our story</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__btn" href="https://calendly.com/team-corewide/introduction-call?back=1&month=2023-09" target="_blank">Book a call</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</header>
+<!--<header class="header" id="header">-->
+<!--    <div class="layout header__container">-->
+<!--        <img class="header__logo" src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/logo.svg" alt="Corewide logo">-->
+<!--        <nav class="menu">-->
+<!--            <div class="menu__dropdown-btn">-->
+<!--                <span class="menu__dropdown-icon"></span>-->
+<!--                <span class="menu__dropdown-icon"></span>-->
+<!--                <span class="menu__dropdown-icon"></span>-->
+<!--            </div>-->
+<!--            <ul class="menu__list">-->
+<!--                <li class="menu__item">-->
+<!--                    <a class="menu__link" href="#sre-features">SRE features</a>-->
+<!--                </li>-->
+<!--                <li class="menu__item">-->
+<!--                    <a class="menu__link"href="#plans">Pricing plans</a>-->
+<!--                </li>-->
+<!--                <li class="menu__item">-->
+<!--                    <a class="menu__link" href="#case">Case studies</a>-->
+<!--                </li>-->
+<!--                <li class="menu__item">-->
+<!--                    <a class="menu__link" href="#insights">Insights</a>-->
+<!--                </li>-->
+<!--                <li class="menu__item">-->
+<!--                    <a class="menu__link" href="https://www.corewide.com/about-us/">Our story</a>-->
+<!--                </li>-->
+<!--                <li class="menu__item">-->
+<!--                    <a class="menu__link menu__btn" href="https://calendly.com/team-corewide/introduction-call?back=1&month=2023-09" target="_blank">Book a call</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </nav>-->
+<!--    </div>-->
+<!--</header>-->
 
 <div class="scroll">
     <a href="#header" class="scroll__btn">
@@ -560,16 +560,18 @@ get_header();
             <div class="questions-item">
                 <div class="questions-item__container">
                     <div class="text-regular questions-item__header">
-                        What activities are included in the subscription plan?
+                        What is Site Reliability Engineering (SRE)?
 
                         <span class="text-regular">+</span>
                     </div>
                     <p class="text-regular questions-item__text">
-                        Corewide is absolutely brilliant!
-                        We have been working with their business for many years
-                        and have benefited tremendously from their brilliant services and network designs.
-                        Denis is a holistic thinker, and his solution is superb!
-                        An absolute goldmine. We highly recommend Corewide.
+                        Site Reliability Engineering (SRE) is a modern approach to running large-scale, reliable services. SRE implements aspects of software engineering into the IT operations domain to create a balance between reliability and the need for new features. At Corewide, we don’t just stick to the script; we add our own flavor to make SRE services uniquely beneficial for you.
+                        <span class="text-bold">Availability:</span> We’re like your neighborhood watch, ensuring everything’s running smoothly 24/7/365 because we understand the online world doesn’t hit the pause button.
+                        <span class="text-bold">Essential Monitoring & Proactive Observability:</span> Picture us as your digital guardian, always watching, always alert. We keep an eagle eye on infrastructure events and performance metrics, ensuring your users have a seamless experience and detecting potential hiccups before they turn into headaches.
+                        <span class="text-bold">Audit:</span> We believe there’s always room for better. By regularly auditing and analyzing performance metrics, we guide your systems toward perfection, ensuring they’re not just meeting but exceeding expectations.
+                        <span class="text-bold">Managed Backups:</span> Imagine having a safety deposit box for your most precious data. We maintain secure backups to a storage of your choice, providing that peace of mind in the event of any data loss.
+                        <span class="text-bold">Swift Response Time:</span> We’re like firefighters, ready to tackle issues at a moment's notice, understanding that in this digital age, time is of the essence.
+                        So, that’s Corewide’s SRE services for you – a unique blend of the classic and the modern, ensuring your systems are not just reliable but also ahead of the curve.
                     </p>
                 </div>
             </div>
@@ -577,16 +579,15 @@ get_header();
             <div class="questions-item">
                 <div class="questions-item__container">
                     <div class="text-regular questions-item__header">
-                        What activities are included in the subscription plan?
+                        How can SRE Services benefit my business?
 
                         <span class="text-regular">+</span>
                     </div>
                     <p class="text-regular questions-item__text">
-                        Corewide is absolutely brilliant!
-                        We have been working with their business for many years
-                        and have benefited tremendously from their brilliant services and network designs.
-                        Denis is a holistic thinker, and his solution is superb!
-                        An absolute goldmine. We highly recommend Corewide.
+                        By implementing SRE services at Corewide, your business stands to gain a multitude of benefits.
+                        Firstly, we aim to minimize manual operations work, allowing your team to focus on what they do best, thereby driving innovation.
+                        Secondly, by increasing system reliability and availability, we ensure optimal user experience, translating to customer satisfaction and potentially higher revenues.
+                        Lastly, our emphasis on automation and continuous improvement leads to reduced incident response times and streamlined release processes, significantly reducing the overall costs related to system downtimes.
                     </p>
                 </div>
             </div>
@@ -594,16 +595,12 @@ get_header();
             <div class="questions-item">
                 <div class="questions-item__container">
                     <div class="text-regular questions-item__header">
-                        What activities are included in the subscription plan?
+                        What's the difference between an 'Incident' and an 'Urgent Incident'?
 
                         <span class="text-regular">+</span>
                     </div>
                     <p class="text-regular questions-item__text">
-                        Corewide is absolutely brilliant!
-                        We have been working with their business for many years
-                        and have benefited tremendously from their brilliant services and network designs.
-                        Denis is a holistic thinker, and his solution is superb!
-                        An absolute goldmine. We highly recommend Corewide.
+                        At Corewide, we define an <span class="text-bold">'Incident'</span> as an event in the client's systems that is either detected by our advanced Monitoring System, reported directly by the client, or encompasses requests for the SRE team. An <span class="text-bold">'Urgent Incident'</span>, on the other hand, is a situation where the Production Client Systems are substantially inaccessible or unusable, experience a disruption of core functionality, or are explicitly marked as urgent by the client and acknowledged as such by our consultant team. Urgent Incidents are prioritized to ensure rapid response and resolution, maintaining the integrity and functionality of your systems.
                     </p>
                 </div>
             </div>
@@ -611,16 +608,12 @@ get_header();
             <div class="questions-item">
                 <div class="questions-item__container">
                     <div class="text-regular questions-item__header">
-                        What activities are included in the subscription plan?
+                        <p>What is meant by <span class="text-bold">'Response Time'</span>?</p>
 
                         <span class="text-regular">+</span>
                     </div>
                     <p class="text-regular questions-item__text">
-                        Corewide is absolutely brilliant!
-                        We have been working with their business for many years
-                        and have benefited tremendously from their brilliant services and network designs.
-                        Denis is a holistic thinker, and his solution is superb!
-                        An absolute goldmine. We highly recommend Corewide.
+                        At Corewide, when we talk about <span class="text-bold">'Response Time'</span>, we’re talking about how quickly our team gets back to you to let you know we’re on the case after an Incident has popped up. It’s our way to make sure you’re in the loop, and we’re tackling the issue. And the cool part? You get to pick how speedy this is! We offer response times ranging from 10 minutes to 60 minutes, depending on what suits your needs best.
                     </p>
                 </div>
             </div>
@@ -648,21 +641,25 @@ get_header();
                             <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
                                 <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
                             </svg>
-                            <svg class="clients-item__star" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
+                            <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
                                 <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
                             </svg>
                         </div>
-                        <p class="text-regular text-bold clients-item__name">Sheh Adams</p>
-                        <p class="text-small clients-item__position">Director of Operations Brighteon</p>
+                        <p class="text-regular text-bold clients-item__name">Roan Mooij</p>
+                        <p class="text-small clients-item__position">Director <br />MR Media</p>
                     </div>
                 </div>
                 <div class="clients-item__body">
                     <p class="text-regular clients-item__body-text">
-                        Corewide is absolutely brilliant!
-                        We have been working with their business for many years and have benefited tremendously from their brilliant services and network designs.
-                        Denis is a holistic thinker, and his solution is superb!  An absolute goldmine. We highly recommend Corewide.
+                        Corewide saved the day when many said it couldn't be done!
+                        On an extremely tight turnaround,
+                        the Corewide team provided great expertise and a sense
+                        of diligence that is hard to find. The work completed was
+                        of the highest quality, and after-delivery care was immediate
+                        and consistent. I would recommend to anybody looking for
+                        a knowledgeable DevOps hire that is not only hard-working but
+                        amazingly friendly and understanding too.
                     </p>
-                    <div class="text-small clients-item__date">September 8, 2023</div>
                 </div>
             </div>
             <div class="clients-item">
@@ -686,17 +683,16 @@ get_header();
                                 <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
                             </svg>
                         </div>
-                        <p class="text-regular text-bold clients-item__name">Sheh Adams</p>
-                        <p class="text-small clients-item__position">Director of Operations Brighteon</p>
+                        <p class="text-regular text-bold clients-item__name">Colin Pickard</p>
+                        <p class="text-small clients-item__position">Technical Lead
+                            <br />Intelligent Voice
+                        </p>
                     </div>
                 </div>
                 <div class="clients-item__body">
                     <p class="text-regular clients-item__body-text">
-                        Corewide is absolutely brilliant!
-                        We have been working with their business for many years and have benefited tremendously from their brilliant services and network designs.
-                        Denis is a holistic thinker, and his solution is superb!  An absolute goldmine. We highly recommend Corewide.
+                        Fantastic work! This was a challenging project, and we received a superb result within the schedule. We were especially impressed with the CTO of Corewide and his ability to rapidly understand our complex requirements and present solutions that meet our needs and align with best practices. We plan to work with Corewide again.
                     </p>
-                    <div class="text-small clients-item__date">September 8, 2023</div>
                 </div>
             </div>
             <div class="clients-item">
@@ -716,23 +712,20 @@ get_header();
                             <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
                                 <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
                             </svg>
-                            <svg class="clients-item__star" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
+                            <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
                                 <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
                             </svg>
                         </div>
-                        <p class="text-regular text-bold clients-item__name">Sheh Adams</p>
-                        <p class="text-small clients-item__position">Director of Operations Brighteon</p>
+                        <p class="text-regular text-bold clients-item__name">Nicholas Valbusa</p>
+                        <p class="text-small clients-item__position">Head of Development
+                            <br />Fliplet
+                        </p>
                     </div>
                 </div>
                 <div class="clients-item__body">
                     <p class="text-regular clients-item__body-text">
-                        Corewide is absolutely brilliant!
-                        We have been working with their business for many years and
-                        have benefited tremendously from their brilliant services and network designs.
-                        Denis is a holistic thinker, and his solution is superb!
-                        An absolute goldmine. We highly recommend Corewide.
+                        I really enjoyed working with Corewide. Their team is talented and very thorough, demonstrating a high level of detail in their reviews. I will definitely engage with them again in the future when I have Ops requirements for our AWS infrastructure.
                     </p>
-                    <div class="text-small clients-item__date">September 8, 2023</div>
                 </div>
             </div>
             <div class="clients-item">
@@ -752,23 +745,18 @@ get_header();
                             <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
                                 <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
                             </svg>
-                            <svg class="clients-item__star" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
+                            <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
                                 <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
                             </svg>
                         </div>
                         <p class="text-regular text-bold clients-item__name">Sheh Adams</p>
-                        <p class="text-small clients-item__position">Director of Operations Brighteon</p>
+                        <p class="text-small clients-item__position">Director of Operations <br />Brighteon</p>
                     </div>
                 </div>
                 <div class="clients-item__body">
                     <p class="text-regular clients-item__body-text">
-                        Corewide is absolutely brilliant!
-                        We have been working with their business for many years and
-                        have benefited tremendously from their brilliant services and network designs.
-                        Denis is a holistic thinker, and his solution is superb!
-                        An absolute goldmine. We highly recommend Corewide.
+                        Corewide is absolutely brilliant! We have been working with their business for many years and have benefited tremendously from their brilliant services and network designs. Denis is a holistic thinker, and his solution is superb! An absolute goldmine. We highly recommend Corewide.
                     </p>
-                    <div class="text-regular clients-item__date">September 8, 2023</div>
                 </div>
             </div>
         </div>

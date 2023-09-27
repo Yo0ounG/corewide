@@ -54,12 +54,10 @@
     @media screen and (min-width: 1280px) {
         max-width: 408px;
         margin-right: 20px;
-        opacity: .45;
     }
 }
 
 .requirements-item.--active {
-    opacity: 1;
     color: var(--white);
 
     .requirements-item__body {
