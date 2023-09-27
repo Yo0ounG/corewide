@@ -1,6 +1,6 @@
 body {
     position: relative;
-    background: #f4f4f4;
+    background: #f4f4f4 !important;
     font-family: 'Roboto', sans-serif;
 }
 
