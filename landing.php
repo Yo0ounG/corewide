@@ -1,14 +1,15 @@
-<?php 
-/* 
-Template Name: NewLandingPage 
-*/ 
+<?php
+/*
+Template Name: NewLandingPage
+*/
+
+get_header();
 ?>
 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Corewide</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/style/style.css">
 </head>
@@ -60,23 +61,30 @@ Template Name: NewLandingPage
     </div>
 
     <div class="main-awards">
-        <div class="main-awards__item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/award-1.png" alt="Award" class="main-awards__img">
-        </div>
-        <div class="main-awards__item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/award-2.png" alt="Award" class="main-awards__img">
-        </div>
-        <div class="main-awards__item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/award-3.png" alt="Award" class="main-awards__img">
-        </div>
-        <div class="main-awards__item">
-            <div class="main-awards__block">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/award-icon.png" alt="award icon">
-                <span class="main-awards__text">TOP RATED PLUS</span>
+        <div class="main-awards__images">
+            <div class="main-awards__item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/award-0.png" alt="Award" class="main-awards__img">
             </div>
-            <div class="main-awards__block">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/award-icon-2.png" alt="award icon">
-                <span class="main-awards__text">100% JOB SUCCESS</span>
+            <div class="main-awards__item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/award-1.png" alt="Award" class="main-awards__img">
+            </div>
+            <div class="main-awards__item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/award-2.png" alt="Award" class="main-awards__img">
+            </div>
+            <div class="main-awards__item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/award-3.png" alt="Award" class="main-awards__img">
+            </div>
+        </div>
+
+        <div class="main-awards__texts">
+            <div class="main-awards__item main-awards__texts-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/award-text-1.png" alt="award icon">
+            </div>
+            <div class="main-awards__item main-awards__texts-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/award-text-2.png" alt="award icon">
+            </div>
+            <div class="main-awards__item main-awards__texts-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/award-text-3.png" alt="award icon">
             </div>
         </div>
     </div>
@@ -753,7 +761,7 @@ Template Name: NewLandingPage
                     </div>
                 </div>
                 <div class="clients-item__body">
-                    <p class="text-small clients-item__body-text">
+                    <p class="text-regular clients-item__body-text">
                         Corewide is absolutely brilliant!
                         We have been working with their business for many years and
                         have benefited tremendously from their brilliant services and network designs.
@@ -902,6 +910,8 @@ Template Name: NewLandingPage
             <textarea class="form__input text-regular form__textarea" placeholder="Tell us about your project" name="project" id="" cols="30" rows="10"></textarea>
             <button class="btn-primary" type="submit">SUBMIT</button>
         </form>
+
+        <?php echo do_shortcode('[contact-form-7 id="ff5b95d" title="Contact form 1"]'); ?>
     </section>
 </section>
 
@@ -923,14 +933,23 @@ Template Name: NewLandingPage
     </div>
     <div class="footer__links">
         <div class="footer__column">
-            <a href="#" class="text-regular footer__link">Articles</a>
+            <a href="https://www.corewide.com/blog/" class="text-regular footer__link" target="_blank">
+                Insights
+            </a>
+            <a href="#plans" class="text-regular footer__link">
+                Pricing
+            </a>
+            <a href="https://www.corewide.com/case-studies/" class="text-regular footer__link" target="_blank">
+                Cases
+            </a>
+            <a href="https://www.corewide.com/about-us/" class="text-regular footer__link" target="_blank">
+                Our story
+            </a>
         </div>
         <div class="footer__column">
-            <a href="#" class="text-regular footer__link">Menu</a>
-            <a href="#" class="text-regular footer__link">Pricing</a>
-            <a href="#" class="text-regular footer__link">Cases</a>
-            <a href="#" class="text-regular footer__link">Our story</a>
-            <a href="#" class="text-regular footer__link">Get in touch</a>
+            <a href="#form" class="btn-primary text-regular footer__btn">
+                Get in touch
+            </a>
         </div>
     </div>
 </footer>
@@ -938,5 +957,7 @@ Template Name: NewLandingPage
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/script.js"></script>
+
+<?php get_footer(); ?>
 
 </html>

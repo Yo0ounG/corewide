@@ -167,14 +167,23 @@ Template Name: NewCalculatorPage
         </div>
         <div class="footer__links">
             <div class="footer__column">
-                <a href="#" class="text-regular footer__link">Articles</a>
+                <a href="https://www.corewide.com/blog/" class="text-regular footer__link" target="_blank">
+                    Insights
+                </a>
+                <a href="https://www.corewide.com/services-sre#plans" class="text-regular footer__link">
+                    Pricing
+                </a>
+                <a href="https://www.corewide.com/case-studies/" class="text-regular footer__link" target="_blank">
+                    Cases
+                </a>
+                <a href="https://www.corewide.com/about-us/" class="text-regular footer__link" target="_blank">
+                    Our story
+                </a>
             </div>
             <div class="footer__column">
-                <a href="#" class="text-regular footer__link">Menu</a>
-                <a href="#" class="text-regular footer__link">Pricing</a>
-                <a href="#" class="text-regular footer__link">Cases</a>
-                <a href="#" class="text-regular footer__link">Our story</a>
-                <a href="#" class="text-regular footer__link">Get in touch</a>
+                <a href="#form" class="btn-primary text-regular footer__btn">
+                    Get in touch
+                </a>
             </div>
         </div>
     </footer>

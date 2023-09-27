@@ -120,3 +120,42 @@
         });
     });
 }
+//
+// // FORM
+// {
+//     const form = document.querySelector('.form');
+//
+//     if (form) {
+//         form.addEventListener('submit', formSend);
+//
+//         async function formSend (e) {
+//             e.preventDefault();
+//             let formData = new FormData(form);
+//             console.log(formData);
+//             let error = formValidate(form);
+//         }
+//
+//         function formValidate(form) {
+//             let error = 0;
+//             let formReq = document.querySelectorAll('input[required]');
+//
+//             formReq.forEach((input) => {
+//                 console.log(input);
+//                 formRemoveError(input);
+//
+//                 if (input.value === '') {
+//                     formAddError(input);
+//                     error++;
+//                 }
+//             })
+//         }
+//
+//         function formAddError (input) {
+//             input.classList.add('form__error');
+//         }
+//
+//         function formRemoveError (input) {
+//             input.classList.remove('form__error');
+//         }
+//     }
+// }

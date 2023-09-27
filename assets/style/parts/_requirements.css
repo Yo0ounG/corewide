@@ -53,6 +53,7 @@
 
     @media screen and (min-width: 1280px) {
         max-width: 408px;
+        margin-right: 20px;
         opacity: .45;
     }
 }
@@ -62,8 +63,6 @@
     color: var(--white);
 
     .requirements-item__body {
-        padding: 30px 20px 20px;
-        border-radius: 42px;
         background: var(--accent);
     }
 
@@ -107,8 +106,6 @@
     color: var(--white);
 
     .requirements-item__body {
-        padding: 30px 20px 20px;
-        border-radius: 42px;
         background: var(--accent);
     }
 
@@ -147,7 +144,11 @@
     flex: 1;
     padding: 30px 20px 20px;
     border-radius: 42px;
-    background: var(--white)
+    background: var(--white);
+
+    @media screen and (min-width: 1280px) {
+        padding: 60px;
+    }
 }
 
 .requirements-item__title {

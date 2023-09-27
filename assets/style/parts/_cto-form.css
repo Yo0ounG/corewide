@@ -69,6 +69,7 @@
     width: 100%;
 }
 
+.form p,
 .form__row {
     display: flex;
     flex-direction: column;
@@ -104,4 +105,16 @@
     width: 100%;
     max-width: none;
     box-sizing: border-box;
+}
+
+.form__btn {
+    width: 100%;
+}
+
+.form__error {
+    border: 1px solid var(--accent);
+}
+
+.form__error::placeholder {
+    color: var(--accent);
 }

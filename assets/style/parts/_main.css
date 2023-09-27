@@ -51,8 +51,10 @@
 
 .main-awards {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
     width: 100%;
     margin-top: 16px;
     padding: 16px 0;
@@ -60,31 +62,48 @@
     border-bottom: 1px solid var(--black);
 
     @media screen and (min-width: 1028px) {
-        justify-content: flex-end;
+        align-items: flex-end;
         max-width: 980px;
         margin: 40px 0 0 -170px;
-        padding-left: 100px;
+        padding: 16px 60px 16px 100px;
         border: 1px solid var(--black);
         border-left: none;
         border-top-right-radius: 7px;
     }
 }
 
-.main-awards__item {
-    margin-right: 22px;
+.main-awards__images,
+.main-awards__texts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+    @media screen and (min-width: 600px) {
+        width: 500px;
+    }
 
     @media screen and (min-width: 1028px) {
-        margin-right: 40px;
+        justify-content: space-between;
     }
 }
 
-.main-awards__img {
-    max-width: 60px;
-    max-height: 55px;
+.main-awards__item {
+    display: flex;
+    justify-content: center;
+    flex: 1 0 auto;
+    max-width: 24%;
+}
 
-    @media screen and (min-width: 1028px) {
+.main-awards__texts-item {
+    max-width: 32%;
+}
+
+.main-awards__img {
+    max-width: 100%;
+
+    @media screen and (min-width: 600px) {
         max-width: none;
-        max-height: none;
     }
 }
 
