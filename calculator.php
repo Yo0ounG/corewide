@@ -125,11 +125,11 @@ Template Name: NewCalculatorPage
                 We're here for you
             </h3>
             <figure class="cto-form__person">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/csm-img.png" alt="CSM photo">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cto-form-img.png" alt="CTO photo">
                 <figcaption class="cto-form__text">
-                    <p class="text-bold">Anastasia Andrusenko</p>
-                    <p class="text-regular">Client Success Manager</p>
-                </figcaption>  
+                    <p class="text-bold">Denis Prysukhin</p>
+                    <p class="text-regular">CTO at Corewide</p>
+                </figcaption>
             </figure>
         </section>
     

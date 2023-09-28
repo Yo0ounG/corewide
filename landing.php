@@ -899,7 +899,7 @@ get_header();
             <button class="btn-primary" type="submit">SUBMIT</button>
         </form>
 
-        <?php echo do_shortcode('[contact-form-7 id="ff5b95d" title="Contact form 1"]'); ?>
+<!--        <?php //echo do_shortcode('[contact-form-7 id="ff5b95d" title="Contact form 1"]'); ?> -->
     </section>
 </section>
 

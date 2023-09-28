@@ -1,7 +1,7 @@
 .clients__list {
     display: flex;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 16px;
     overflow-x: auto;
 
     @media screen and (min-width: 1028px) {
@@ -20,14 +20,14 @@
 
 /* Track */
 .clients__list::-webkit-scrollbar-track {
-background: var(--white);
-border-radius: 12px;
+    background: var(--white);
+    border-radius: 12px;
 }
 
 /* Handle */
 .clients__list::-webkit-scrollbar-thumb {
-background: var(--accent);
-border-radius: 12px;
+    background: var(--accent);
+    border-radius: 12px;
 }
 
 .clients-item {
@@ -38,6 +38,10 @@ border-radius: 12px;
     padding: 12px 14px;
     border-radius: 12px;
     border: 1px solid var(--grey);
+
+    @media screen and (min-width: 1028px) {
+        padding: 20px 28px 30px;
+    }
 }
 
 .clients-item.--big {

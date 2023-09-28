@@ -69,7 +69,7 @@
     width: 100%;
 }
 
-.form p,
+.form__row p,
 .form__row {
     display: flex;
     flex-direction: column;
@@ -85,9 +85,9 @@
 .form__input {
     flex: 1 0 auto;
     width: 100%;
-    padding: 24px;
+    padding: 24px !important;
     box-sizing: border-box;
-    background: transparent;
+    background: transparent !important;
     border: 1px solid #c3c3c3;
     border-radius: 12px;
     color: var(--black);
