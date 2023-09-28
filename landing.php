@@ -15,39 +15,6 @@ get_header();
 </head>
 
 <body>
-<!--<header class="header" id="header">-->
-<!--    <div class="layout header__container">-->
-<!--        <img class="header__logo" src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/logo.svg" alt="Corewide logo">-->
-<!--        <nav class="menu">-->
-<!--            <div class="menu__dropdown-btn">-->
-<!--                <span class="menu__dropdown-icon"></span>-->
-<!--                <span class="menu__dropdown-icon"></span>-->
-<!--                <span class="menu__dropdown-icon"></span>-->
-<!--            </div>-->
-<!--            <ul class="menu__list">-->
-<!--                <li class="menu__item">-->
-<!--                    <a class="menu__link" href="#sre-features">SRE features</a>-->
-<!--                </li>-->
-<!--                <li class="menu__item">-->
-<!--                    <a class="menu__link"href="#plans">Pricing plans</a>-->
-<!--                </li>-->
-<!--                <li class="menu__item">-->
-<!--                    <a class="menu__link" href="#case">Case studies</a>-->
-<!--                </li>-->
-<!--                <li class="menu__item">-->
-<!--                    <a class="menu__link" href="#insights">Insights</a>-->
-<!--                </li>-->
-<!--                <li class="menu__item">-->
-<!--                    <a class="menu__link" href="https://www.corewide.com/about-us/">Our story</a>-->
-<!--                </li>-->
-<!--                <li class="menu__item">-->
-<!--                    <a class="menu__link menu__btn" href="https://calendly.com/team-corewide/introduction-call?back=1&month=2023-09" target="_blank">Book a call</a>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </nav>-->
-<!--    </div>-->
-<!--</header>-->
-
 <div class="scroll">
     <a href="#header" class="scroll__btn">
         <img class="scroll__icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/scroll.svg" alt="Scroll mouse">
@@ -899,48 +866,9 @@ get_header();
             <button class="btn-primary" type="submit">SUBMIT</button>
         </form>
 
-<!--        <?php //echo do_shortcode('[contact-form-7 id="ff5b95d" title="Contact form 1"]'); ?> -->
+        <?php echo do_shortcode('[contact-form-7 id="ff5b95d" title="Contact form 1"]'); ?>
     </section>
 </section>
-
-<footer class="footer">
-    <div class="footer__head">
-        <div class="footer__column">
-            <img class="footer__logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-logo.png" alt="Corewide" >
-        </div>
-        <div class="footer__column footer__socials">
-            <div>
-                <a class="footer__social-link" href="#">
-                    <img class="footer__social" src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png" alt="social">
-                </a>
-                <a class="footer__social-link" href="#">
-                    <img class="footer__social" src="<?php echo get_template_directory_uri(); ?>/assets/img/linkedin-logo.png" alt="social">
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="footer__links">
-        <div class="footer__column">
-            <a href="https://www.corewide.com/blog/" class="text-regular footer__link" target="_blank">
-                Insights
-            </a>
-            <a href="#plans" class="text-regular footer__link">
-                Pricing
-            </a>
-            <a href="https://www.corewide.com/case-studies/" class="text-regular footer__link" target="_blank">
-                Cases
-            </a>
-            <a href="https://www.corewide.com/about-us/" class="text-regular footer__link" target="_blank">
-                Our story
-            </a>
-        </div>
-        <div class="footer__column">
-            <a href="#form" class="btn-primary text-regular footer__btn">
-                Get in touch
-            </a>
-        </div>
-    </div>
-</footer>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
