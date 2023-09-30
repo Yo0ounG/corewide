@@ -16,7 +16,7 @@ get_header();
 
 <body>
 <div class="scroll">
-    <a href="#header" class="scroll__btn">
+    <a href="#header" class="scroll__btn" id="scroll-to-top">
         <img class="scroll__icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/scroll.svg" alt="Scroll mouse">
     </a>
 </div>
@@ -297,7 +297,7 @@ get_header();
                                     </p>
                                 </div>
                             </label>
-                            <a href="#form" class="btn-secondary plan-tabs__btn">Get started</a>
+                            <a href="#form" class="btn-secondary plan-tabs__btn" id="get-started-1">Get started</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -344,7 +344,7 @@ get_header();
                                     </p>
                                 </div>
                             </label>
-                            <a href="#form" class="btn-secondary plan-tabs__btn">Get started</a>
+                            <a href="#form" class="btn-secondary plan-tabs__btn" id="get-started-2">Get started</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -397,7 +397,7 @@ get_header();
                                     </p>
                                 </div>
                             </label>
-                            <a href="#form" class="btn-secondary plan-tabs__btn">Get started</a>
+                            <a href="#form" class="btn-secondary plan-tabs__btn" id="get-started-3">Get started</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -457,7 +457,7 @@ get_header();
                                     </p>
                                 </div>
                             </label>
-                            <a href="#form" class="btn-secondary plan-tabs__btn">Get started</a>
+                            <a href="#form" class="btn-secondary plan-tabs__btn" id="get-started-4">Get started</a>
                         </div>
                     </div>
                 </div>
@@ -471,7 +471,7 @@ get_header();
         <p class="text-regular plan__find-text">
             Take matters into your own hands and create a customized plan that aligns perfectly with your requirements
         </p>
-        <a href="/services-calculator" class="btn-primary">Estimate the cost</a>
+        <a href="/services-calculator" class="btn-primary" id="estimate-cost">Estimate the cost</a>
     </section>
 </section>
 
@@ -745,7 +745,7 @@ get_header();
                 e-commerce website powered by Magento 2 and needed to ensure their infrastructure
                 can meet all performance and security requirements before the release.
             </p>
-            <a class="btn-primary success__btn" href="https://www.corewide.com/performance-security-improvement-magento/" target="_blank">Explore</a>
+            <a class="btn-primary success__btn" href="https://www.corewide.com/performance-security-improvement-magento/" target="_blank" id="explore-1">Explore</a>
         </div>
         <div class="success__topics-container">
             <div class="success__topic">
@@ -753,7 +753,7 @@ get_header();
                 <p class="text-regular success__topic-text">
                     Bulletproofing high load: A Failover and backup strategy for unrivaled Resilience
                 </p>
-                <a class="btn-secondary success__btn" href="https://www.corewide.com/failover-strategy-backup/" target="_blank">Explore</a>
+                <a class="btn-secondary success__btn" href="https://www.corewide.com/failover-strategy-backup/" target="_blank" id="explore-2">Explore</a>
             </div>
 
             <div class="success__topic">
@@ -761,7 +761,7 @@ get_header();
                 <p class="text-regular success__topic-text">
                     Under 24/7 watch: Troubleshooting 132 Incidents and keeping rocking
                 </p>
-                <a class="btn-secondary success__btn" href="https://www.corewide.com/devops-support-exclusively/" target="_blank">Explore</a>
+                <a class="btn-secondary success__btn" href="https://www.corewide.com/devops-support-exclusively/" target="_blank" id="explore-3">Explore</a>
             </div>
         </div>
     </section>
@@ -774,7 +774,7 @@ get_header();
                 <h3 class="h3-title insights-item__title">
                     Running tech support in a DevOps way
 
-                    <a class="btn-primary insights-item__link --desktop" href="https://www.corewide.com/running-tech-support-in-a-devops-way/" target="_blank">Read more</a>
+                    <a class="btn-primary insights-item__link --desktop" href="https://www.corewide.com/running-tech-support-in-a-devops-way/" target="_blank" id="read-more-1">Read more</a>
                 </h3>
                 <img class="insights-item__arrow-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/insights-item-arrow.png" alt="arrow">
             </label>
@@ -796,7 +796,7 @@ get_header();
                     further on.
                 </p>
             </div>
-            <a class="btn-primary insights-item__link" href="https://www.corewide.com/running-tech-support-in-a-devops-way/" target="_blank">Read more</a>
+            <a class="btn-primary insights-item__link" href="https://www.corewide.com/running-tech-support-in-a-devops-way/" target="_blank" id="read-more-2">Read more</a>
         </div>
         <div class="insights__list">
             <div class="insights-item">
@@ -816,7 +816,7 @@ get_header();
                         But the thing is that DevOps only provides recommendations on improvements –
                         the SRE encompasses their implementation.
                     </p>
-                    <a class="btn-secondary insights-item__link" href="https://www.corewide.com/sre-practices/" target="_blank">Read more</a>
+                    <a class="btn-secondary insights-item__link" href="https://www.corewide.com/sre-practices/" target="_blank" id="read-more-3">Read more</a>
                 </div>
             </div>
             <div class="insights-item">
@@ -835,7 +835,7 @@ get_header();
                         field – cutting-edge solutions and new tech trends shake
                         the world every year, if not more often.
                     </p>
-                    <a class="btn-secondary insights-item__link" href="https://www.corewide.com/devops-for-my-business/" target="_blank">Read more</a>
+                    <a class="btn-secondary insights-item__link" href="https://www.corewide.com/devops-for-my-business/" target="_blank" id="read-more-4">Read more</a>
                 </div>
             </div>
         </div>
@@ -852,21 +852,8 @@ get_header();
         <h3 class="h3-title cto-form__quote">We know it's hard to entrust your business to strangers. Let's change it. Take a step forward.</h3>
     </section>
 
-    <section class="block form-section">
-        <form class="form" id="form" action="#" autocomplete="on">
-            <div class="form__row">
-                <input class="form__input text-regular" type="text" name="name" placeholder="Name">
-                <input class="form__input text-regular" type="email" name="email" placeholder="Email">
-            </div>
-            <div class="form__row">
-                <input class="form__input text-regular" type="text" name="company" placeholder="Company">
-                <input class="form__input text-regular" type="text" name="source" placeholder="Where did you hear about us?">
-            </div>
-            <textarea class="form__input text-regular form__textarea" placeholder="Tell us about your project" name="project" id="" cols="30" rows="10"></textarea>
-            <button class="btn-primary" type="submit">SUBMIT</button>
-        </form>
-
-        <?php echo do_shortcode('[contact-form-7 id="ff5b95d" title="Contact form 1"]'); ?>
+    <section class="block form-section" id="form">
+        <?php echo do_shortcode('[contact-form-7 id="ff5b95d" title="New landing form"]'); ?>
     </section>
 </section>
 </body>

@@ -16,7 +16,7 @@ get_header();
 
 <body>
     <div class="scroll">
-        <a href="#header" class="scroll__btn">
+        <a href="#header" class="scroll__btn" id="scroll-to-top">
             <img class="scroll__icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/scroll.svg" alt="Scroll mouse">
         </a>
     </div>
@@ -111,60 +111,12 @@ get_header();
             </figure>
         </section>
     
-        <section class="block form-section">
-            <form class="form" id="form" action="#" autocomplete="on">
-                <div class="form__row">
-                    <input class="form__input text-regular" type="text" name="name" placeholder="Name">
-                    <input class="form__input text-regular" type="email" name="email" placeholder="Email">
-                </div>
-                <div class="form__row">
-                    <input class="form__input text-regular" type="text" name="company" placeholder="Company">
-                    <input class="form__input text-regular" type="text" name="source" placeholder="Where did you hear about us?">
-                </div>
-                <textarea class="form__input text-regular form__textarea" placeholder="Tell us about your project" name="project" id="" cols="30" rows="10"></textarea>
-                <button class="btn-primary" type="submit">SUBMIT</button>
-            </form>
+        <section class="block form-section" id="form">
+            <?php echo do_shortcode('[contact-form-7 id="ff5b95d" title="New landing form"]'); ?>
         </section>
     </section>
-    
-    <footer class="footer">
-        <div class="footer__head">
-            <div class="footer__column">
-                <img class="footer__logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-logo.png" alt="Corewide" >
-            </div>
-            <div class="footer__column footer__socials">
-                <div>
-                    <a class="footer__social-link" href="#">
-                        <img class="footer__social" src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png" alt="social">
-                    </a>
-                    <a class="footer__social-link" href="#">
-                        <img class="footer__social" src="<?php echo get_template_directory_uri(); ?>/assets/img/linkedin-logo.png" alt="social">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="footer__links">
-            <div class="footer__column">
-                <a href="https://www.corewide.com/blog/" class="text-regular footer__link" target="_blank">
-                    Insights
-                </a>
-                <a href="https://www.corewide.com/services-sre#plans" class="text-regular footer__link">
-                    Pricing
-                </a>
-                <a href="https://www.corewide.com/case-studies/" class="text-regular footer__link" target="_blank">
-                    Cases
-                </a>
-                <a href="https://www.corewide.com/about-us/" class="text-regular footer__link" target="_blank">
-                    Our story
-                </a>
-            </div>
-            <div class="footer__column">
-                <a href="#form" class="btn-primary text-regular footer__btn">
-                    Get in touch
-                </a>
-            </div>
-        </div>
-    </footer>
 
     <script src="<?php echo get_template_directory_uri(); ?>/assets/script.js"></script>
+
+    <?php get_footer(); ?>
 </body>
