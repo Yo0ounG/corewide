@@ -113,36 +113,7 @@
 }
 
 .form__agreement {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex: 1 0 auto;
-    margin-bottom: 40px;
     font-weight: 400;
-
-    .form__agreement-link,
-    .wpcf7-form-control-wrap {
-        display: flex;
-        flex: 1 0 auto;
-
-        @media screen and (min-width: 702px) {
-            flex: none;
-        }
-    }
-
-    .wpcf7-not-valid-tip {
-        width: 200px;
-        position: absolute;
-        bottom: -54px;
-
-        @media screen and (min-width: 462px) {
-            bottom: -40px;
-        }
-
-        @media screen and (min-width: 702px) {
-            bottom: -20px;
-        }
-    }
 }
 
 .wpcf7-not-valid-tip {
