@@ -87,7 +87,10 @@
 }
 
 .clients-item__photo {
+    width: 58px;
+    height: 58px;
     margin-right: 12px;
+    object-fit: cover;
 }
 
 .clients-item__info-text {

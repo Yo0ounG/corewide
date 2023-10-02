@@ -27,7 +27,7 @@
     border-radius: 12px;
     border: 1px solid var(--white);
     font-weight: 400;
-    transition: all .3s;
+    transition: max-height 1s, border .3s;
     cursor: pointer;
 
     @media screen and (min-width: 768px) {
