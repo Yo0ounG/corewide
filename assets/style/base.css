@@ -42,7 +42,9 @@ body {
 }
 
 .h2-title,
-.h3-title {
+.h3-title,
+h2,
+h3 {
     font-family: 'Galano Grotesque Bold', 'Roboto', sans-serif;
 }
 

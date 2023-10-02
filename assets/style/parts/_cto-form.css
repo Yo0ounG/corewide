@@ -112,6 +112,10 @@
     width: 100%;
 }
 
+.form__agreement {
+    display: flex;
+}
+
 .wpcf7-not-valid-tip {
     margin-top: 6px;
     font-family: 'Galano Grotesque', 'Roboto', sans-serif;

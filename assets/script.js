@@ -14,15 +14,11 @@
 
 // QUESTIONS ACCORDION
 {
-   const accordionList = document.querySelectorAll('.questions-item__header');
+   const accordionList = document.querySelectorAll('.questions-item__container');
 
    if (accordionList) {
        accordionList.forEach((item) => {
-           item.addEventListener('click', () => {
-               const parent = item.parentNode;
-
-               parent.classList.toggle('--active');
-           })
+           item.addEventListener('click', () => item.classList.toggle('--active'))
        });
    }
 }
