@@ -129,6 +129,6 @@
     font-family: 'Galano Grotesque', 'Roboto', sans-serif;
 }
 
-.form.sent .wpcf7-response-output {
+form.sent .wpcf7-response-output {
     color: #46b450;
 }

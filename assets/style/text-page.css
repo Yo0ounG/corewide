@@ -1,0 +1,68 @@
+@import './normalize.css';
+@import './variables.css';
+@import './fonts.css';
+@import './base.css';
+
+.text-page {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.text-page ol {
+    list-style: auto;
+}
+
+.text-page ul {
+    list-style: circle;
+}
+
+.privacy a {
+    color: var(--accent);
+}
+
+.privacy__container {
+    max-width: 790px;
+    margin: 0 auto;
+    padding: 0 0 70px 30px;
+}
+
+.privacy__item {
+    margin-bottom: 20px;
+}
+
+.privacy__item::marker {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.privacy__title {
+    max-width: 790px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.privacy__subtitle {
+    margin-bottom: 20px;
+}
+
+.privacy__list {
+    padding: 16px 0 0 40px;
+}
+
+.ty-page {
+    max-width: 900px;
+
+}
+
+.ty-page__title {
+    text-align: left;
+}
+
+.ty-page__subtitle {
+    font-weight: 400;
+}
+
+.ty-page__btn {
+    margin: 70px auto 0;
+}

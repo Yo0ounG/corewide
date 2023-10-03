@@ -1,0 +1,118 @@
+<?php
+/*
+Template Name: NewPrivacyPage
+*/
+
+get_header();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/style/text-page.css">
+</head>
+
+<body>
+
+<div class="text-page privacy">
+    <h2 class="block h2-title privacy__title">Privacy policy</h2>
+
+    <ol class="privacy__container">
+        <li class="privacy__item">
+            <h3 class="h3-title privacy__subtitle">Introduction</h3>
+            <p class="text-regular privacy__text">This Privacy Policy outlines how Corewide ("we", "our", or "us") collects, uses, and protects personal information. Our primary goal is to maintain the trust and confidence of our users when they visit our website and share their personal details.</p>
+        </li>
+
+        <li class="privacy__item">
+            <h3 class="h3-title privacy__subtitle">Data Collection</h3>
+            <p class="text-regular privacy__text">
+                We may collect personal information through contact forms on our website. This data might include, but is not limited to:
+            <ul class="privacy__list">
+                <li class="text-regular">Names</li>
+                <li class="text-regular">Email addresses</li>
+                <li class="text-regular">Phone numbers</li>
+                <li class="text-regular">Any other data provided in contact forms</li>
+            </ul>
+            </p>
+        </li>
+
+        <li class="privacy__item">
+            <h3 class="h3-title privacy__subtitle">Purpose of Data Collection</h3>
+            <p class="text-regular privacy__text">
+                The data we collect is used for:
+            <ul class="privacy__list">
+                <li class="text-regular">Responding to requests</li>
+                <li class="text-regular">Improving our services based on feedback</li>
+                <li class="text-regular">Sending newsletters or updates (with explicit consent)</li>
+            </ul>
+            </p>
+        </li>
+
+        <li class="privacy__item">
+            <h3 class="h3-title privacy__subtitle">Data Protection</h3>
+            <p class="text-regular privacy__text">
+                Corewide is committed to ensuring the security of user data. We have put in place robust technical and organizational measures to protect personal data from unauthorized access, alteration, disclosure, or destruction.
+            </p>
+        </li>
+
+        <li class="privacy__item">
+            <h3 class="h3-title privacy__subtitle">Data Retention</h3>
+            <p class="text-regular privacy__text">
+                We will only retain personal data for as long as necessary to fulfill the purposes for which it was collected unless a longer retention period is required or permitted by law.
+            </p>
+        </li>
+
+        <li class="privacy__item">
+            <h3 class="h3-title privacy__subtitle">Data Subject Rights</h3>
+            <p class="text-regular privacy__text">
+                In accordance with the GDPR, users have the right to:
+            <ul class="privacy__list">
+                <li class="text-regular">Access the personal data we hold about them</li>
+                <li class="text-regular">Correct inaccuracies in their data</li>
+                <li class="text-regular">Withdraw consent</li>
+                <li class="text-regular">Object to direct marketing</li>
+                <li class="text-regular">Delete personal data</li>
+                <li class="text-regular">Receive their data in a readable format</li>
+                <li class="text-regular">To exercise any of these rights, please contact our Data Protection Officer at
+                    <a href="mailto:welcome@corewide.com">welcome@corewide.com</a>.
+                </li>
+            </ul>
+            </p>
+        </li>
+
+        <li class="privacy__item">
+            <h3 class="h3-title privacy__subtitle">Third-Party Disclosure</h3>
+            <p class="text-regular privacy__text">
+                We will not share, sell, or lease personal data to third parties unless we have explicit consent or are required to do so by law.
+            </p>
+        </li>
+
+        <li class="privacy__item">
+            <h3 class="h3-title privacy__subtitle">Cookies</h3>
+            <p class="text-regular privacy__text">
+                Our website may use cookies to enhance the user experience. Cookies are small files saved on your device that hold data specific to our website. Users can manage and delete cookies in their browser settings.
+            </p>
+        </li>
+
+        <li class="privacy__item">
+            <h3 class="h3-title privacy__subtitle">Changes to this Policy</h3>
+            <p class="text-regular privacy__text">
+                From time to time, we may make changes to this Privacy Policy. Updated versions will be posted on our website, and we advise regular review of this policy.
+            </p>
+        </li>
+
+        <li class="privacy__item">
+            <h3 class="h3-title privacy__subtitle">Contact Us</h3>
+            <p class="text-regular privacy__text">
+                For any queries regarding this Privacy Policy, contact us at <a href="mailto:welcome@corewide.com">welcome@corewide.com</a>
+            </p>
+        </li>
+    </ol>
+</div>
+
+</body>
+
+<?php get_footer(); ?>
+</html>

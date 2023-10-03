@@ -16,12 +16,12 @@ get_header();
 
 <body>
     <div class="scroll">
-        <a href="#header" class="scroll__btn" id="scroll-to-top">
+        <a href="#top" class="scroll__btn" id="scroll-to-top">
             <img class="scroll__icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/scroll.svg" alt="Scroll mouse">
         </a>
     </div>
 
-    <section class="layout layout--calculator">
+    <section class="layout layout--calculator" id="top">
         <div class="calculator">
             <div class="block calculator__container">
                 <h2 class="h2-title calculator__title">Create a plan that fits your needs</h2>

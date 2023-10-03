@@ -16,12 +16,12 @@ get_header();
 
 <body>
 <div class="scroll">
-    <a href="#header" class="scroll__btn" id="scroll-to-top">
+    <a href="#main" class="scroll__btn" id="scroll-to-top">
         <img class="scroll__icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/scroll.svg" alt="Scroll mouse">
     </a>
 </div>
 
-<section class="main">
+<section class="main" id="main">
     <div class="main__container">
         <h1 class="main__title">You've created an amazing product</h1>
         <h3 class="main__subtitle">We make sure your customers can enjoy it</h3>
