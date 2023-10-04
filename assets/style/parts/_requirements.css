@@ -45,8 +45,10 @@
 .requirements-item {
     display: flex;
     flex-direction: column;
+    flex: 1 0 auto;
     align-items: center;
     max-width: 288px;
+
     margin-right: 12px;
     transition: all .3s;
 

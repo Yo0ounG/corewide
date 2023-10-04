@@ -14,11 +14,18 @@
 
 .cto-form.--calculator {
     justify-content: space-around;
-    padding: 200px 64px 30px;
+
+    @media screen and (min-width: 1028px) {
+        padding: 200px 64px 30px;
+    }
 
     .cto-form__quote {
         max-width: 540px;
-        padding: 0 40px 0 0;
+        padding: 30px 0;
+
+        @media screen and (min-width: 1028px) {
+            padding: 0 40px 0 0;
+        }
     }
 }
 
@@ -43,9 +50,11 @@
 
 .cto-form__text {
     margin-top: 14px;
+    text-align: center;
 
     @media screen and (min-width: 1028px) {
         margin: 0 0 0 14px;
+        text-align: left;
     }
 }
 
