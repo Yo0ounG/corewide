@@ -621,7 +621,7 @@ get_header();
         <div class="block clients__list">
             <div class="clients-item --big">
                 <div class="clients-item__info">
-                    <img class="clients-item__photo" src="<?php echo get_template_directory_uri(); ?>/assets/img/client-11.png" alt="client photo">
+                    <img class="clients-item__photo" src="<?php echo get_template_directory_uri(); ?>/assets/img/client-33.png" alt="client photo">
                     <div class="clients-item__info-text">
                         <div class="clients-item__rate">
                             <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
@@ -692,7 +692,7 @@ get_header();
             </div>
             <div class="clients-item">
                 <div class="clients-item__info">
-                    <img class="clients-item__photo" src="<?php echo get_template_directory_uri(); ?>/assets/img/client-33.png" alt="client photo">
+                    <img class="clients-item__photo" src="<?php echo get_template_directory_uri(); ?>/assets/img/client-44.png" alt="client photo">
                     <div class="clients-item__info-text">
                         <div class="clients-item__rate">
                             <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
@@ -725,7 +725,7 @@ get_header();
             </div>
             <div class="clients-item">
                 <div class="clients-item__info">
-                    <img class="clients-item__photo" src="<?php echo get_template_directory_uri(); ?>/assets/img/client-44.png" alt="client photo">
+                    <img class="clients-item__photo" src="<?php echo get_template_directory_uri(); ?>/assets/img/client-11.png" alt="client photo">
                     <div class="clients-item__info-text">
                         <div class="clients-item__rate">
                             <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
