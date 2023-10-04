@@ -103,10 +103,10 @@ get_header();
                 We're here for you
             </h3>
             <figure class="cto-form__person">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cto-form-img.png" alt="CTO photo">
+                <img class="cto-form__photo" src="<?php echo get_template_directory_uri(); ?>/assets/img/coo-photo.jpg" alt="COO photo">
                 <figcaption class="cto-form__text">
-                    <p class="text-bold">Denis Prysukhin</p>
-                    <p class="text-regular">CTO at Corewide</p>
+                    <p class="text-bold">Paul Koba</p>
+                    <p class="text-regular">COO at Corewide</p>
                 </figcaption>
             </figure>
         </section>

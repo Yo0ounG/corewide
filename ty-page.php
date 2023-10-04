@@ -19,12 +19,10 @@ get_header();
         <h2 class="block h2-title ty-page__title">
             <span class="text-orange">Thank you</span> for trusting Corewide with your project needs!
         </h2>
-        <h3 class="h3-title ty-page__subtitle">
-            <span class="text-orange">Keep an eye on your inbox;</span> we'll send over details for our introductory call.
+        <p class="ty-page__subtitle">
+            <span class="text-orange">Keep an eye on your inbox,</span> we'll send over details for our introductory call.
             <br />Eagerly awaiting the chance to dive deep into your project's specifics.
-        </h3>
-
-        <a class="btn-primary ty-page__btn" href="/">Go to Corewide.com</a>
+        </p>
     </div>
 
 </body>
