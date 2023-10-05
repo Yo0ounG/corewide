@@ -113,7 +113,7 @@ get_header();
                     <h3 class="h3-title key-item__title">Always on board</h3>
                     <p class="key-item__text">
                         Production never sleeps, and neither do we.
-                        We`ve got you covered 24/7/365
+                        We've got you covered 24/7/365
                     </p>
                 </div>
             </div>
@@ -202,9 +202,10 @@ get_header();
                         Discovery
                     </h3>
                     <p class="text-regular requirements-item__text">
-                        Without a clear understanding of your infrastructure's scale and characteristics,
-                        we cannot provide accurate recommendations regarding the SRE plan you require.
-                        Hence, our journey commences with an audit, as it enables us to gain insights and eliminate blind spots.
+                        To provide accurate recommendations for the SRE plan that suits you best,
+                        we need a clear understanding of your infrastructure's setup and scale.
+                        Hence, our journey commences with an audit, as it enables us
+                        to gain insights and eliminate blind spots.
                         This way, we can lay a solid foundation for informed decision-making.
                     </p>
                 </div>
@@ -216,12 +217,11 @@ get_header();
                         Commitment
                     </h3>
                     <p class="text-regular requirements-item__text">
-                        Deeds carry more weight than mere words.
-                        Once you have chosen the SRE plan that suits your needs,
-                        we will proceed to establish a SLA that encompasses regulated SLOs,
-                        including a commitment to guaranteed uptime.
-                        This contractual commitment reinforces our dedication to delivering
-                        the agreed-upon level of service.
+                        Deeds carry more weight than mere words. Once you have chosen the SRE
+                        plan that suits your needs, we proceed to establish an SLA that encompasses
+                        regulated SLOs, including a commitment to guaranteed uptime.
+                        This contractual commitment reinforces our dedication
+                        to delivering the agreed-upon level of service.
                     </p>
                 </div>
             </div>
@@ -233,13 +233,12 @@ get_header();
                     </h3>
                     <p class="text-regular requirements-item__text">
                         Once the Commitment step has been completed,
-                        we implement a robust monitoring system to
-                        guarantee rapid responsiveness to alerts.
-                        In the occurrence of an incident, our team conducts prompt
-                        investigations into the underlying causes and takes immediate steps
-                        to resolve them. Our dedicated SRE team maintains a constant vigil,
-                        working tirelessly 24/7/365,
-                        to protect the well-being of your endpoints
+                        we implement a robust monitoring system to guarantee
+                        high responsiveness to alerts. Should an incident occur,
+                        our team conducts prompt investigations into the underlying causes
+                        and takes immediate steps to resolve them. Our dedicated SRE team maintains
+                        a constant vigil,
+                        working tirelessly 24/7/365 to ensure the availability of your endpoints.
                     </p>
                 </div>
             </div>
@@ -532,11 +531,17 @@ get_header();
                         <span class="text-regular">+</span>
                     </div>
                     <p class="text-regular questions-item__text">
-                        Site Reliability Engineering (SRE) is a modern approach to running large-scale, reliable services. SRE implements aspects of software engineering into the IT operations domain to create a balance between reliability and the need for new features. At Corewide, we don’t just stick to the script; we add our own flavor to make SRE services uniquely beneficial for you.
+                        Site Reliability Engineering (SRE) is a modern approach to running large-scale, reliable services. SRE implements aspects of software engineering into the IT operations domain to create a balance between reliability and the need for new features.
+                        At Corewide, we don’t just stick to the script; we add our own flavor to make SRE services uniquely beneficial for you.
+                        <br />
                         <span class="text-bold">Availability:</span> We’re like your neighborhood watch, ensuring everything’s running smoothly 24/7/365 because we understand the online world doesn’t hit the pause button.
+                        <br />
                         <span class="text-bold">Essential Monitoring & Proactive Observability:</span> Picture us as your digital guardian, always watching, always alert. We keep an eagle eye on infrastructure events and performance metrics, ensuring your users have a seamless experience and detecting potential hiccups before they turn into headaches.
+                        <br />
                         <span class="text-bold">Audit:</span> We believe there’s always room for better. By regularly auditing and analyzing performance metrics, we guide your systems toward perfection, ensuring they’re not just meeting but exceeding expectations.
+                        <br />
                         <span class="text-bold">Managed Backups:</span> Imagine having a safety deposit box for your most precious data. We maintain secure backups to a storage of your choice, providing that peace of mind in the event of any data loss.
+                        <br />
                         <span class="text-bold">Swift Response Time:</span> We’re like firefighters, ready to tackle issues at a moment's notice, understanding that in this digital age, time is of the essence.
                         So, that’s Corewide’s SRE services for you – a unique blend of the classic and the modern, ensuring your systems are not just reliable but also ahead of the curve.
                     </p>
@@ -580,7 +585,7 @@ get_header();
                         <span class="text-regular">+</span>
                     </div>
                     <p class="text-regular questions-item__text">
-                        At Corewide, when we talk about <span class="text-bold">'Response Time'</span>, we’re talking about how quickly our team gets back to you to let you know we’re on the case after an Incident has popped up. It’s our way to make sure you’re in the loop, and we’re tackling the issue. And the cool part? You get to pick how speedy this is! We offer response times ranging from 10 minutes to 60 minutes, depending on what suits your needs best.
+                        At Corewide, when we talk about <span class="text-bold">'Response Time',</span> we mean how quickly our team gets back to you to let you know we’re on the case after an Incident has popped up. It’s our way to make sure you’re in the loop, and we’re tackling the issue. And the cool part? You get to pick how speedy this is! We offer response times ranging from 10 minutes to 60 minutes, depending on what suits your needs best.
                     </p>
                 </div>
             </div>
@@ -674,7 +679,7 @@ get_header();
                             <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
                                 <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
                             </svg>
-                            <svg class="clients-item__star" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
+                            <svg class="clients-item__star --active" width="19" height="17" viewBox="0 0 19 17" fill="#898989" xmlns="http://www.w3.org/2000/svg" id="star">
                                 <path d="M9.87201 0L12.6931 5.59571L19 6.4933L14.4367 10.8497L15.5141 17L9.87201 14.0957L4.22988 17L5.30734 10.8497L0.742676 6.4933L7.05095 5.59571L9.87201 0Z"/>
                             </svg>
                         </div>
@@ -809,8 +814,7 @@ get_header();
             <div class="insights-item__block">
                 <p class="text-regular insights-item__text">
                     <span class="text-bold">What do you imagine when hearing the “tech support” term?</span>
-                    I bet you think about people in headphones drinking liters of coffee and
-                    constantly saying something like, “have you tried turning it off and on again.”
+                    I bet you think about people in headphones drinking litres of coffee and constantly saying something like, “have you tried turning it off and on again?”
                     <br />
                     <br />
                     Indeed, tech support refers to helping deal with specific
