@@ -39,7 +39,7 @@
     border: 1px solid var(--accent);
 
     .questions-item__text {
-        max-height: 300px;
+        max-height: 1044px;
         padding-top: 12px;
     }
 }
